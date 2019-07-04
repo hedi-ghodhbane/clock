@@ -19,6 +19,7 @@ body{
 }
 .clock{
  height: 150px;
+  margin:2% auto ;
  width:150px;
  background-image: url("https://img.pngio.com/clock-without-hands-png-analog-group-dial-clipart-svg-stock-png-of-clock-without-hands-3000_3000.png");
   background-color: white ;
