@@ -1,0 +1,72 @@
+*{
+    margin:0 ; 
+    padding:0;
+}
+body{
+    background-color: rgb(80, 50, 109) ; 
+}
+.alltime{
+    border:solid 2px white ;
+    border-radius:10px ;
+    width:80%;
+    height: 90vh;
+    margin:1% auto ;
+}
+.clockback{
+    width: 70% ;
+    height: 200px ;
+    margin: 5% 35%; 
+}
+.clock{
+ height: 150px;
+ width:150px;
+ background-image: url("https://img.pngio.com/clock-without-hands-png-analog-group-dial-clipart-svg-stock-png-of-clock-without-hands-3000_3000.png");
+  background-color: white ;
+  border: solid 1px black ;
+  border-radius: 100%;
+  position:relative ;
+  background-size: cover ;
+}
+.seconds-hand{
+    width:40%;
+    height:5px ;
+    margin: 75px ;
+    position:absolute ;
+    transform: rotate(-90deg);
+    transform-origin:0;
+    border-radius: 10px;
+    background-size:cover ;
+   background-color: green;   
+}
+.minutes-hand{
+    width:38%;
+    border-radius: 10px;
+    height: 5px ;
+    background-color:yellow ;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: rotate(-90deg);
+    transform-origin:0;
+    
+}
+.hours-hand{
+    width:30%;
+    border-radius: 10px;
+    height: 5px ;
+    position : absolute ;
+    left:50%;
+    top:50%;
+    transform: rotate(-90deg);
+    transform-origin: 0;
+    background-color: blue ;
+}
+.time{
+    background-color:rgb(80, 50, 109) ; 
+    font-size: 4vw ;
+    width: 50%;
+    margin:2% auto ;
+    color : white ;
+    border:solid 5px white ;
+    text-align: center ;
+}
