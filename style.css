@@ -15,7 +15,7 @@ body{
 .clockback{
     width: 70% ;
     height: 200px ;
-    margin: 5% 35%; 
+    margin: 5% auto; 
 }
 .clock{
  height: 150px;
