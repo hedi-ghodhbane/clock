@@ -16,6 +16,7 @@ body{
     width: 70% ;
     height: 200px ;
     margin: 5% auto; 
+    backgroun-color : red ;
 }
 .clock{
  height: 150px;
